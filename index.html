@@ -1,107 +1,205 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style/style.css">
+<link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
-<body>
-    <div class="header">
-        <h1>Mousa Ala'aldin</h1>
-        <img class="profile-image" src="https://easy-peasy.ai/cdn-cgi/image/quality=80,format=auto,width=700/https://fdczvxmwwjwpwbeeqcth.supabase.co/storage/v1/object/public/images/18fafc59-b8f8-4cfd-adb0-ebda9da48e03/4721eea8-03cf-4935-aa3d-0e74bdd2d034.png" alt="profile image">
+<body class="container">
+    <nav class="navbar">
+        <ul class="nav-items">
+            <li><a class="nav-link" href="#About">About Us</a></li>
+            <li><a class="nav-link active" href="#Experience">Experience</a></li>
+            <li><a class="nav-link" href="#Projects">Projects</a></li>
+            <li><a class="nav-link" href="#Skills">Skills</a></li>
+            <li><a class="nav-link" href="#Contact">Contact</a></li>
+        </ul>
+    </nav>
+   <section >
+    <div class="header" >
+        <img class="profile-image" src="assets/images/profile-image2.jpg" alt="profile image">
+        <div style="text-align: center;">
+            <h6>Hello,I'm</h6>
+            <br>
+            <h1>Mousa Ala'aldin</h1>
+            <br>
+            <h6>Full  Stack developer</h6>
+            <br>
+        <div class="div-display-flex">
+            <a href="https://github.com/Mousa-alaaldeen"><i class="fa-brands fa-github i"></i></a>
+            <a href="https://linkedin.com/in/mousa-alaaldeen"><i class="fa-brands fa-linkedin i"></i></a>
+        </div>
+        </div>
     </div>
-    
-    <h3 class="job-title">Flutter Developer</h3>
-    
-    <div id="box1">
-        <p><strong>Mobile :</strong> +962 788740499</p>
-        <p><strong>Email :</strong> musa.alaaldeen77@gmail.com</p>
-        <p><strong>LinkedIn :</strong> linkedin.com/in/mousa-alaaldeen</p>
-        <p><strong>GitHub :</strong> github.com/Mousa-alaaldeen</p>
+   </section>
+   <section id="About" class="section-margin">
+    <div class="div-display-flex-center" >
+        <h1>About Me <hr class="hr"></h1>
+        <br>
+        <br>
+        <br>
+      <p> Skilled in developing both web and mobile applications, with expertise in Flutter and Dart for building responsive and dynamic UIs, custom animations, and third-party integrations. Proficient in backend technologies, database management, and developing RESTful APIs, enabling a seamless connection between front-end and back-end systems.</p> 
     </div>
-    
-    <h1 class="title-text">Objective</h1>
-    <p>As a junior mobile application specialist with a passion for Flutter and Dart. Skilled in developing Flutter apps with responsive and dynamic UI, custom animations, and third-party integrations libraries.</p>
-    
-    <h1 class="title-text">Education</h1>
-    <p>Bachelor's in Computer Information Systems (CIS), Balqa Applied University, Salt, 2019-2023</p>
-    
-    <h1 class="title-text">Experience</h1>
-    <ul>
-        <li>I have extensive experience in Flutter app development and freelancing, having developed various innovative applications for multiple clients.</li>
-        <li>Flutter Development Intern, Uni Match-Efe Jordan, Amman (2 months) <strong>Aug 2023 - Oct 2023</strong></li>
-    </ul>
-    
-    <h1 class="title-text">Projects</h1>
-    <ol>
-        <li>
-            <div class="project-header">
-                <strong>Netflix Clone App</strong>
-                <strong>Mar 2024</strong>
+   </section>
+    <section id="Experience" class="section-margin">
+        <div class="div-display-flex-center">
+            <h1>Experience <hr class="hr"></h1>
+            <br>
+            <br>
+            <br>
+                  <p>
+                    I have extensive experience in Flutter app development and freelancing, having developed various
+                     innovative applications for multiple clients.
+                  </p>
+                  <p>Flutter Development Intern, Uni Match-Efe Jordan, Amman (2 months)
+                </p> 
+         </div>
+    </section>
+    <section id="Projects" class="section-margin">
+        <div class="div-display-flex-center">
+            <h1>Projects<hr class="hr"></h1>
+            <br>
+        </div>
+        <div class="grid-container">
+            <div class="card div-display-flex-center">
+                <img 
+                  src="assets/images/zomato.jpg"  class="card-img card" alt="Vegetarians Delight">
+                  <br>
+                  
+                  <div>
+                    <button class="btn" >Zomato</button>
+                  <button class="btn"><a href="https://github.com/Mousa-alaaldeen/zomato"><i class="fa-brands fa-github  white-color"></i></a></button>
+                  </div>
             </div>
-            <p>Developed in Flutter, it allows users to search for and view movie details using a Netflix-inspired interface, integrated with The Movie Database (TMDb) API. Implemented screens include Discover (TV and Movies), Favorites, and Top-Rated Movies, featuring user ratings, error handling, and responsive design.</p>
-        </li>
-        <li>
-            <div class="project-header">
-                <strong>Care for Gaza</strong>
-                <strong>Jan 2024</strong>
+            <div class="card div-display-flex-center">
+                <img 
+                  src="assets/images/foodwebsit.jpg"  class="card-img card" alt="Vegetarians Delight">
+                  <br>
+                  <div>
+                    <button class="btn" >Food Website</button>
+                    
+                  <button class="btn"><a href="https://github.com/Mousa-alaaldeen/foodUi"><i class="fa-brands fa-github white-color"></i></a> </button>
+                  </div>
+                 
             </div>
-            <p>A compassionate initiative aimed at collecting donations for Gaza, providing essential supplies such as food, water, medical treatment, and medication. <strong>(Freelance project)</strong></p>
-        </li>
-        <li>
-            <div class="project-header">
-                <strong>Learn by Playing App</strong>
-                <strong>Jan 2024</strong>
+            <div class="card div-display-flex-center">
+                <img 
+                  src="assets/images/see-jordan.png"  class="card-img card" alt="Vegetarians Delight">
+                  <br>
+                  
+                  <div>
+                    <button class="btn" >See Jordan</button>
+                  <button class="btn"> <a href="https://github.com/Mousa-alaaldeen/see_jordan"><i  class="fa-brands fa-github white-color"></i></a></button>
+                  </div>
             </div>
-            <p>An educational app available on the Google Play Store, designed to provide users with interactive learning experiences.</p>
-        </li>
-        <li>
-            <div class="project-header">
-                <strong>See Jordan “Graduation Project”</strong>
-                <strong>Jun2023</strong>
+            <div class="card div-display-flex-center">
+                <img 
+                  src="assets/images/Learn.jpg"  class="card-img card" alt="Vegetarians Delight">
+                  <br>
+                  <div>
+                    <button class="btn">Learn by Playing </button>
+                  <button class="btn"><a href="https://play.google.com/store/apps/details?id=com.mosa.learning"><i class="fa-brands fa-google-play white-color"></i></a></button>
+                  </div>
+            </div> 
+            <div class="card div-display-flex-center">
+                <img 
+                  src="assets/images/Weathar-APP.jpg"  class="card-img card" alt="Vegetarians Delight">
+                  <br>
+                  <div>
+                    <button class="btn">Weather App </button>
+                  <button class="btn"><a href="https://github.com/Mousa-alaaldeen/Weathar-APP"><i  class="fa-brands fa-github white-color"></i></a></button>
+                  </div>
+            </div> 
+            <div class="card div-display-flex-center">
+                <img 
+                  src="assets/images/movie.jpg"  class="card-img card" alt="Vegetarians Delight">
+                  <br>
+                  <div>
+                    <button class="btn">Netflix Clone App </button>
+                  <button class="btn"><a href="https://github.com/Mousa-alaaldeen/movie_app"><i  class="fa-brands fa-github white-color"></i></a></button>
+                  </div>
+            </div> 
+            <div class="card div-display-flex-center">
+                <img 
+                  src="assets/images/care-for-gaza.png"  class="card-img card" alt="Vegetarians Delight">
+                  <br>
+                  <div>
+                    <button class="btn">Care for Gaza</button>
+                  <button class="btn"><a href="https://careforgaza.world/"><i class="fa-solid fa-globe white-color"></i></a></button>
+                  </div>
+            </div> 
+       
+    </section>
+    </div>
+   
+     <section id="Skills" class="section-margin" >
+        <div class="div-display-flex-center">
+            <h1>Skills<hr class="hr"></h1>
+            <br>
+            <div  class="grid-container">
+                <div class="card div-display-flex-center">
+                    <h5>Front-End Development</h5>
+                    <br>
+                    <div class="grid-five-container">
+                        <div class="grid-item"><img class="icon-img" src="assets/images/html.png" alt=""></div>
+                        <div class="grid-item"><img class="icon-img"src="assets/images/css.png" alt=""></div>
+                        <div class="grid-item"><img class="icon-img"class="icon-img"src="assets/images/js.png" alt=""></div>
+                        <div class="grid-item"><img class="icon-img" src="assets/images/bootstrap1.png" alt=""></div>
+                        <div class="grid-item"><img class="icon-img" src="assets/images/react.png" alt=""></div>
+                        <div class="grid-item"><img class="icon-img" src="assets/images/flutter.png" alt=""></div>
+                        <div class="grid-item"><img class="icon-img" src="assets/images/dart.png" alt=""></div>
+                      </div>
+                </div>
+                <div class="card div-display-flex-center">
+                    <h5>Bak-End Development</h5>
+                    <br>
+                    <div class="grid-five-container ">
+                      <div class="grid-item"><img class="icon-img" src="assets/images/php.png" alt=""></div>
+                      <div class="grid-item"><img class="icon-img" src="assets/images/laravet.png" alt=""></div>
+                      <div class="grid-item"><img class="icon-img" src="assets/images/sql.png" alt=""></div>
+                      <div class="grid-item"><img class="icon-img" class="icon-img" src="assets/images/firebase.png" alt=""></div>
+                    </div>
+                    
+                </div>
+                <div class="card div-display-flex-center">
+                    <h5>Shared Tools</h5>
+                    <div class="grid-five-container ">
+                        <div class="grid-item"><img class="icon-img" src="assets/images/github.png" alt=""></div>
+                        <div class="grid-item"><img class="icon-img" src="assets/images/gitbash.png" alt=""></div>
+                        <div class="grid-item"><img class="icon-img" src="assets/images/figma.png" alt=""></div>
+                        <div class="grid-item"><img class="icon-img"src="assets/images/vs.png" alt=""></div>
+                    </div>
+                </div>
+                
             </div>
-            <p>Recognized as one of the top ten college projects, See Jordan enables users to explore hidden and
-                lesser-known areas of the country. Responsible for designing and implementing the front-end logic.
-                Built with Flutter.
-            </p>
-        </li>
-    </ol>
-    <h1  class="title-text">Techical Skills</h1>
-    <p>Programing languages</p>
-    <ul>
-        <li>
-            Dart
-        </li>
-        <li>
-            Flutter(framework)
-        </li>
-    </ul>
-    <p>State Management</p>
-    <ul>
-        <li>Bloc</li>
-        <li>GetX</li>
-    </ul>
-    <p>Design pattern</p>
-    <ul>
-        <li>
-            MVC
-        </li>
-        <li>
-            Bloc architecture
-        </li>
-    </ul>
-    <p>Tools and Platforms</p>
-    <ul>
-        <li>
-            Firebase
-        </li>
-        <li>
-            VS Code
-        </li>
-        <li>
-            Postman
-        </li>
-    </ul>
+            
+         </div>
+     </section>
+     <section class=" section-margin section-margin" id="Contact">
+        <div class="div-display-flex-center ">
+            <h1>Contact me<hr class="hr"></h1>
+            <p>Find me on the following platforms!</p>
+            
+            <button class=" btn btn-secondary"><i class="fa-solid fa-envelope"></i>&nbsp; <span>mousa.alaaldin2000@gmail.com</span> </button>
+            <br>
+            <br>  
+            <button class=" btn btn-secondary"> <a href="https://linkedin.com/in/mousa-alaaldeen"><i class="fa-brands fa-linkedin "></i></a>&nbsp; <span>Mousa Ala'aldin</span> </button>
+        </div>
+     </section>
+    <br>
+    <br>
+   
+     <footer class="footer">
+        <ul class="nav-items ">
+            <li><a class="nav-link" href="#About">About Us</a></li>
+            <li><a class="nav-link active" href="#Experience">Experience</a></li>
+            <li><a class="nav-link" href="#Projects">Projects</a></li>
+            <li><a class="nav-link" href="#Skills">Skills</a></li>
+            <li><a class="nav-link" href="#Contact">Contact</a></li>
+        </ul>
+    </footer>
+ 
 </body>
 </html>
+
+
