@@ -343,6 +343,10 @@ Color:
         width: 50%;
         height: auto;
     }
+    .nav-items{
+      flex-direction: column ;
+      
+    }
 }
 
 @media only screen and (min-width: 600px) and (max-width: 1024px) {
